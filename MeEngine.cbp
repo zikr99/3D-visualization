@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MeEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="MeEngine" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Linker>
+			<Add option="C:\MinGW\lib\libglu32.a" />
+			<Add library="opengl32" />
+		</Linker>
+		<Unit filename="CAnimator.cpp" />
+		<Unit filename="CAnimator.h" />
+		<Unit filename="CBSPMesh.cpp" />
+		<Unit filename="CBSPMesh.h" />
+		<Unit filename="CBSPSceneNode.cpp" />
+		<Unit filename="CBSPSceneNode.h" />
+		<Unit filename="CBillboardSceneNode.cpp" />
+		<Unit filename="CBillboardSceneNode.h" />
+		<Unit filename="CBmp24GrayscaleImage.h" />
+		<Unit filename="CBmp24Image.cpp" />
+		<Unit filename="CBmp24Image.h" />
+		<Unit filename="CBounceAnimator.cpp" />
+		<Unit filename="CBounceAnimator.h" />
+		<Unit filename="CBullet.h" />
+		<Unit filename="CBulletResponseAnimator.cpp" />
+		<Unit filename="CBulletResponseAnimator.h" />
+		<Unit filename="CCameraFPSSceneNode.cpp" />
+		<Unit filename="CCameraFPSSceneNode.h" />
+		<Unit filename="CCameraSceneNode.cpp" />
+		<Unit filename="CCameraSceneNode.h" />
+		<Unit filename="CCollisionManager.cpp" />
+		<Unit filename="CCollisionManager.h" />
+		<Unit filename="CCollisionResponseAnimator.cpp" />
+		<Unit filename="CCollisionResponseAnimator.h" />
+		<Unit filename="CCursorControl.h" />
+		<Unit filename="CDummyDevice.cpp" />
+		<Unit filename="CDummyDevice.h" />
+		<Unit filename="CEnemy.cpp" />
+		<Unit filename="CEnemy.h" />
+		<Unit filename="CEventProcessor.h" />
+		<Unit filename="CExplosionSceneNode.cpp" />
+		<Unit filename="CExplosionSceneNode.h" />
+		<Unit filename="CHoderDevice.cpp" />
+		<Unit filename="CHolderDevice.h" />
+		<Unit filename="CImage.h" />
+		<Unit filename="CLevel.cpp" />
+		<Unit filename="CLevel.h" />
+		<Unit filename="CMD2Mesh.cpp" />
+		<Unit filename="CMD2Mesh.h" />
+		<Unit filename="CMD2SceneNode.cpp" />
+		<Unit filename="CMD2SceneNode.h" />
+		<Unit filename="CMeDevice.cpp" />
+		<Unit filename="CMeDevice.h" />
+		<Unit filename="CMesh.cpp" />
+		<Unit filename="CMesh.h" />
+		<Unit filename="CNode.h" />
+		<Unit filename="CParticleSystemSceneNode.cpp" />
+		<Unit filename="CParticleSystemSceneNode.h" />
+		<Unit filename="CPlane.h" />
+		<Unit filename="CSceneManager.cpp" />
+		<Unit filename="CSceneManager.h" />
+		<Unit filename="CSceneNode.cpp" />
+		<Unit filename="CSceneNode.h" />
+		<Unit filename="CSimpleDemoApplication.cpp" />
+		<Unit filename="CSimpleDemoApplication.h" />
+		<Unit filename="CSkyBoxSceneNode.h" />
+		<Unit filename="CStraightMotionAnimator.cpp" />
+		<Unit filename="CStraightMotionAnimator.h" />
+		<Unit filename="CTestSceneNode.cpp" />
+		<Unit filename="CTestSceneNode.h" />
+		<Unit filename="CTexture.cpp" />
+		<Unit filename="CTexture.h" />
+		<Unit filename="CTimer.h" />
+		<Unit filename="CVector2.h" />
+		<Unit filename="CVector3.h" />
+		<Unit filename="CameraAction.h" />
+		<Unit filename="DriverExtension.cpp" />
+		<Unit filename="DriverExtension.h" />
+		<Unit filename="SColor4f.h" />
+		<Unit filename="SMaterial.h" />
+		<Unit filename="SViewFrustrum.h" />
+		<Unit filename="aabbox.cpp" />
+		<Unit filename="aabbox.h" />
+		<Unit filename="irrArray.h" />
+		<Unit filename="irrList.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="matrix4.h" />
+		<Unit filename="specMath.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

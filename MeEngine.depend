@@ -1,0 +1,1220 @@
+# depslib dependency file v1.0
+1249288844 source:d:\opengl\engine\engine\canimator.cpp
+	"CAnimator.h"
+	"CSceneNode.h"
+
+1249288886 d:\opengl\engine\engine\canimator.h
+
+1249288402 d:\opengl\engine\engine\cscenenode.h
+	<gl\glu.h>
+	"irrList.h"
+	"CNode.h"
+	"matrix4.h"
+	"CAnimator.h"
+
+1241206722 d:\opengl\engine\engine\irrlist.h
+
+1249288426 d:\opengl\engine\engine\cnode.h
+	<windows.h>
+
+1249204200 d:\opengl\engine\engine\matrix4.h
+	"aabbox.h"
+
+1244605786 d:\opengl\engine\engine\aabbox.h
+	"CPlane.h"
+
+1244605752 d:\opengl\engine\engine\cplane.h
+	"CVector3.h"
+
+1242105564 d:\opengl\engine\engine\cvector3.h
+	<math.h>
+	"specMath.h"
+
+1242102896 d:\opengl\engine\engine\specmath.h
+
+1249441822 source:d:\opengl\engine\engine\cbspmesh.cpp
+	"CBSPMesh.h"
+	"CSceneManager.h"
+	<stdio.h>
+	<string.h>
+
+1249441920 d:\opengl\engine\engine\cbspmesh.h
+	<windows.h>
+	"irrArray.h"
+	"CMesh.h"
+	"SMaterial.h"
+	"aabbox.h"
+
+1242801926 d:\opengl\engine\engine\irrarray.h
+
+1249441884 d:\opengl\engine\engine\cmesh.h
+	<string.h>
+
+1248094578 d:\opengl\engine\engine\smaterial.h
+	"SColor4f.h"
+	"CTexture.h"
+	"DriverExtension.h"
+
+1243436268 d:\opengl\engine\engine\scolor4f.h
+
+1243515502 d:\opengl\engine\engine\ctexture.h
+	"CBmp24GrayscaleImage.h"
+
+1243308416 d:\opengl\engine\engine\cbmp24grayscaleimage.h
+	"CBmp24Image.h"
+	<math.h>
+
+1243292280 d:\opengl\engine\engine\cbmp24image.h
+	"CImage.h"
+
+1245137556 d:\opengl\engine\engine\cimage.h
+	<windows.h>
+	<gl\glu.h>
+	"CVector2.h"
+
+1242102928 d:\opengl\engine\engine\cvector2.h
+	<math.h>
+	"specMath.h"
+
+1245230042 d:\opengl\engine\engine\driverextension.h
+	<gl\glu.h>
+	<gl\glext.h>
+
+1249980504 d:\opengl\engine\engine\cscenemanager.h
+	"CTimer.h"
+	"CLevel.h"
+	"CCollisionManager.h"
+
+1241282906 d:\opengl\engine\engine\ctimer.h
+	<windows.h>
+
+1248172188 d:\opengl\engine\engine\clevel.h
+	"CCameraFPSSceneNode.h"
+
+1243436876 d:\opengl\engine\engine\ccamerafpsscenenode.h
+	"CCameraSceneNode.h"
+	"CCursorControl.h"
+	"irrArray.h"
+
+1249026486 d:\opengl\engine\engine\ccamerascenenode.h
+	"CSceneNode.h"
+	"CameraAction.h"
+	"SViewFrustrum.h"
+
+1242889146 d:\opengl\engine\engine\cameraaction.h
+
+1243829054 d:\opengl\engine\engine\sviewfrustrum.h
+	"matrix4.h"
+
+1243353078 d:\opengl\engine\engine\ccursorcontrol.h
+	<windows.h>
+	"CVector2.h"
+
+1249727440 d:\opengl\engine\engine\ccollisionmanager.h
+	"CBSPSceneNode.h"
+
+1249443198 d:\opengl\engine\engine\cbspscenenode.h
+	"CSceneNode.h"
+	"CBSPMesh.h"
+
+1249441968 source:d:\opengl\engine\engine\cbspscenenode.cpp
+	"CBSPSceneNode.h"
+	"CSceneManager.h"
+	"SViewFrustrum.h"
+
+1249205006 source:d:\opengl\engine\engine\cbillboardscenenode.cpp
+	"CBillboardSceneNode.h"
+	"CSceneManager.h"
+
+1249205052 d:\opengl\engine\engine\cbillboardscenenode.h
+	"CSceneNode.h"
+	"SMaterial.h"
+
+1243493982 source:d:\opengl\engine\engine\cbmp24image.cpp
+	"CBmp24Image.h"
+	<stdio.h>
+
+1250066728 source:d:\opengl\engine\engine\cbounceanimator.cpp
+	"CBounceAnimator.h"
+	"CSceneManager.h"
+	"CEnemy.h"
+
+1250066686 d:\opengl\engine\engine\cbounceanimator.h
+	<time.h>
+	<stdlib.h>
+	"CCollisionResponseAnimator.h"
+
+1249372582 d:\opengl\engine\engine\ccollisionresponseanimator.h
+	"CAnimator.h"
+	"CVector3.h"
+
+1250060220 d:\opengl\engine\engine\cenemy.h
+	<time.h>
+	"CMD2SceneNode.h"
+	"CBounceAnimator.h"
+	"CBullet.h"
+
+1249448178 d:\opengl\engine\engine\cmd2scenenode.h
+	"CSceneNode.h"
+	"CMD2Mesh.h"
+
+1249443448 d:\opengl\engine\engine\cmd2mesh.h
+	"CMesh.h"
+	"irrArray.h"
+	"SMaterial.h"
+	"aabbox.h"
+
+1249847350 d:\opengl\engine\engine\cbullet.h
+	"CMD2SceneNode.h"
+	"CStraightMotionAnimator.h"
+	"CBulletResponseAnimator.h"
+
+1249293504 d:\opengl\engine\engine\cstraightmotionanimator.h
+	"CAnimator.h"
+	"CVector3.h"
+
+1250057930 d:\opengl\engine\engine\cbulletresponseanimator.h
+	"CAnimator.h"
+	"aabbox.h"
+	"CVector3.h"
+	"CBmp24Image.h"
+
+1250060040 source:d:\opengl\engine\engine\cbulletresponseanimator.cpp
+	"CBulletResponseAnimator.h"
+	"CSceneManager.h"
+	"CExplosionSceneNode.h"
+	"CEnemy.h"
+
+1249088056 d:\opengl\engine\engine\cexplosionscenenode.h
+	"CParticleSystemSceneNode.h"
+	"SMaterial.h"
+	<time.h>
+
+1249088636 d:\opengl\engine\engine\cparticlesystemscenenode.h
+	"CSceneNode.h"
+	"SColor4f.h"
+
+1249847908 source:d:\opengl\engine\engine\ccamerafpsscenenode.cpp
+	"CCameraFPSSceneNode.h"
+	"CSceneManager.h"
+
+1249121254 source:d:\opengl\engine\engine\ccamerascenenode.cpp
+	"CCameraSceneNode.h"
+	"CSceneManager.h"
+
+1250069004 source:d:\opengl\engine\engine\ccollisionmanager.cpp
+	"CCollisionManager.h"
+
+1249373696 source:d:\opengl\engine\engine\ccollisionresponseanimator.cpp
+	"CCollisionResponseAnimator.h"
+	"CSceneNode.h"
+	"CSceneManager.h"
+
+1250060242 source:d:\opengl\engine\engine\cenemy.cpp
+	"CEnemy.h"
+	"CSceneManager.h"
+
+1248173468 source:d:\opengl\engine\engine\cexplosionscenenode.cpp
+	"CExplosionSceneNode.h"
+	"CSceneManager.h"
+
+1248941040 source:d:\opengl\engine\engine\choderdevice.cpp
+	"CHolderDevice.h"
+	"CEventProcessor.h"
+
+1249979088 d:\opengl\engine\engine\cholderdevice.h
+	"CSceneManager.h"
+
+1248940980 d:\opengl\engine\engine\ceventprocessor.h
+	<windows.h>
+	"CHolderDevice.h"
+
+1247798958 source:d:\opengl\engine\engine\clevel.cpp
+	"CLevel.h"
+	"CSceneManager.h"
+
+1249443332 source:d:\opengl\engine\engine\cmd2mesh.cpp
+	"CMD2Mesh.h"
+	"CSceneManager.h"
+	<stdio.h>
+
+1249871348 source:d:\opengl\engine\engine\cmd2scenenode.cpp
+	"CMD2SceneNode.h"
+	"CSceneManager.h"
+
+1248937776 source:d:\opengl\engine\engine\cmedevice.cpp
+	"CMeDevice.h"
+
+1249979222 d:\opengl\engine\engine\cmedevice.h
+	"CHolderDevice.h"
+
+1249441616 source:d:\opengl\engine\engine\cmesh.cpp
+	"CMesh.h"
+	"CSceneManager.h"
+
+1248081444 source:d:\opengl\engine\engine\cparticlesystemscenenode.cpp
+	"CParticleSystemSceneNode.h"
+
+1249980218 source:d:\opengl\engine\engine\cscenemanager.cpp
+	"CSceneManager.h"
+	"CHolderDevice.h"
+
+1249715776 source:d:\opengl\engine\engine\cscenenode.cpp
+	"CSceneNode.h"
+
+1250068564 source:d:\opengl\engine\engine\csimpledemoapplication.cpp
+	"CSimpleDemoApplication.h"
+
+1250067824 d:\opengl\engine\engine\csimpledemoapplication.h
+	"CMeDevice.h"
+	"CEnemy.h"
+	"CBullet.h"
+	"CBSPSceneNode.h"
+	"CCollisionResponseAnimator.h"
+	"CBmp24Image.h"
+	"CEventProcessor.h"
+	<stdio.h>
+
+1249372258 source:d:\opengl\engine\engine\cstraightmotionanimator.cpp
+	"CStraightMotionAnimator.h"
+	"CSceneManager.h"
+	"CSceneNode.h"
+
+1243354412 source:d:\opengl\engine\engine\ctestscenenode.cpp
+	"CTestSceneNode.h"
+	"CSceneManager.h"
+
+1243354272 d:\opengl\engine\engine\ctestscenenode.h
+	"CSceneNode.h"
+
+1248067034 source:d:\opengl\engine\engine\ctexture.cpp
+	"CTexture.h"
+
+1245229974 source:d:\opengl\engine\engine\driverextension.cpp
+	"DriverExtension.h"
+	<windows.h>
+	<string.h>
+
+1249204868 source:d:\opengl\engine\engine\aabbox.cpp
+	"aabbox.h"
+	"matrix4.h"
+
+1249009932 source:d:\opengl\engine\engine\main.cpp
+	"CSimpleDemoApplication.h"
+
+1249288844 source:d:\penelitian pupt\opengl\engine\engine\canimator.cpp
+	"CAnimator.h"
+	"CSceneNode.h"
+
+1249288886 d:\penelitian pupt\opengl\engine\engine\canimator.h
+
+1249288402 d:\penelitian pupt\opengl\engine\engine\cscenenode.h
+	<gl\glu.h>
+	"irrList.h"
+	"CNode.h"
+	"matrix4.h"
+	"CAnimator.h"
+
+1241206722 d:\penelitian pupt\opengl\engine\engine\irrlist.h
+
+1249288426 d:\penelitian pupt\opengl\engine\engine\cnode.h
+	<windows.h>
+
+1249204200 d:\penelitian pupt\opengl\engine\engine\matrix4.h
+	"aabbox.h"
+
+1244605786 d:\penelitian pupt\opengl\engine\engine\aabbox.h
+	"CPlane.h"
+
+1244605752 d:\penelitian pupt\opengl\engine\engine\cplane.h
+	"CVector3.h"
+
+1242105564 d:\penelitian pupt\opengl\engine\engine\cvector3.h
+	<math.h>
+	"specMath.h"
+
+1242102896 d:\penelitian pupt\opengl\engine\engine\specmath.h
+
+1508632638 source:d:\penelitian pupt\opengl\engine\engine\cbspmesh.cpp
+	"CBSPMesh.h"
+	"CSceneManager.h"
+	<stdio.h>
+	<string.h>
+
+1249441920 d:\penelitian pupt\opengl\engine\engine\cbspmesh.h
+	<windows.h>
+	"irrArray.h"
+	"CMesh.h"
+	"SMaterial.h"
+	"aabbox.h"
+
+1242801926 d:\penelitian pupt\opengl\engine\engine\irrarray.h
+
+1249441884 d:\penelitian pupt\opengl\engine\engine\cmesh.h
+	<string.h>
+
+1248094578 d:\penelitian pupt\opengl\engine\engine\smaterial.h
+	"SColor4f.h"
+	"CTexture.h"
+	"DriverExtension.h"
+
+1243436268 d:\penelitian pupt\opengl\engine\engine\scolor4f.h
+
+1243515502 d:\penelitian pupt\opengl\engine\engine\ctexture.h
+	"CBmp24GrayscaleImage.h"
+
+1243308416 d:\penelitian pupt\opengl\engine\engine\cbmp24grayscaleimage.h
+	"CBmp24Image.h"
+	<math.h>
+
+1243292280 d:\penelitian pupt\opengl\engine\engine\cbmp24image.h
+	"CImage.h"
+
+1245137556 d:\penelitian pupt\opengl\engine\engine\cimage.h
+	<windows.h>
+	<gl\glu.h>
+	"CVector2.h"
+
+1242102928 d:\penelitian pupt\opengl\engine\engine\cvector2.h
+	<math.h>
+	"specMath.h"
+
+1245230042 d:\penelitian pupt\opengl\engine\engine\driverextension.h
+	<gl\glu.h>
+	<gl\glext.h>
+
+1508133779 d:\penelitian pupt\opengl\engine\engine\cscenemanager.h
+	"CTimer.h"
+	"CLevel.h"
+	"CCollisionManager.h"
+
+1241282906 d:\penelitian pupt\opengl\engine\engine\ctimer.h
+	<windows.h>
+
+1248172188 d:\penelitian pupt\opengl\engine\engine\clevel.h
+	"CCameraFPSSceneNode.h"
+
+1508167285 d:\penelitian pupt\opengl\engine\engine\ccamerafpsscenenode.h
+	"CCameraSceneNode.h"
+	"CCursorControl.h"
+	"irrArray.h"
+
+1249026486 d:\penelitian pupt\opengl\engine\engine\ccamerascenenode.h
+	"CSceneNode.h"
+	"CameraAction.h"
+	"SViewFrustrum.h"
+
+1242889146 d:\penelitian pupt\opengl\engine\engine\cameraaction.h
+
+1243829054 d:\penelitian pupt\opengl\engine\engine\sviewfrustrum.h
+	"matrix4.h"
+
+1243353078 d:\penelitian pupt\opengl\engine\engine\ccursorcontrol.h
+	<windows.h>
+	"CVector2.h"
+
+1249727440 d:\penelitian pupt\opengl\engine\engine\ccollisionmanager.h
+	"CBSPSceneNode.h"
+
+1249443198 d:\penelitian pupt\opengl\engine\engine\cbspscenenode.h
+	"CSceneNode.h"
+	"CBSPMesh.h"
+
+1249441968 source:d:\penelitian pupt\opengl\engine\engine\cbspscenenode.cpp
+	"CBSPSceneNode.h"
+	"CSceneManager.h"
+	"SViewFrustrum.h"
+
+1249205006 source:d:\penelitian pupt\opengl\engine\engine\cbillboardscenenode.cpp
+	"CBillboardSceneNode.h"
+	"CSceneManager.h"
+
+1249205052 d:\penelitian pupt\opengl\engine\engine\cbillboardscenenode.h
+	"CSceneNode.h"
+	"SMaterial.h"
+
+1243493982 source:d:\penelitian pupt\opengl\engine\engine\cbmp24image.cpp
+	"CBmp24Image.h"
+	<stdio.h>
+
+1250066728 source:d:\penelitian pupt\opengl\engine\engine\cbounceanimator.cpp
+	"CBounceAnimator.h"
+	"CSceneManager.h"
+	"CEnemy.h"
+
+1250066686 d:\penelitian pupt\opengl\engine\engine\cbounceanimator.h
+	<time.h>
+	<stdlib.h>
+	"CCollisionResponseAnimator.h"
+
+1249372582 d:\penelitian pupt\opengl\engine\engine\ccollisionresponseanimator.h
+	"CAnimator.h"
+	"CVector3.h"
+
+1250060220 d:\penelitian pupt\opengl\engine\engine\cenemy.h
+	<time.h>
+	"CMD2SceneNode.h"
+	"CBounceAnimator.h"
+	"CBullet.h"
+
+1249448178 d:\penelitian pupt\opengl\engine\engine\cmd2scenenode.h
+	"CSceneNode.h"
+	"CMD2Mesh.h"
+
+1249443448 d:\penelitian pupt\opengl\engine\engine\cmd2mesh.h
+	"CMesh.h"
+	"irrArray.h"
+	"SMaterial.h"
+	"aabbox.h"
+
+1249847350 d:\penelitian pupt\opengl\engine\engine\cbullet.h
+	"CMD2SceneNode.h"
+	"CStraightMotionAnimator.h"
+	"CBulletResponseAnimator.h"
+
+1249293504 d:\penelitian pupt\opengl\engine\engine\cstraightmotionanimator.h
+	"CAnimator.h"
+	"CVector3.h"
+
+1250057930 d:\penelitian pupt\opengl\engine\engine\cbulletresponseanimator.h
+	"CAnimator.h"
+	"aabbox.h"
+	"CVector3.h"
+	"CBmp24Image.h"
+
+1250060040 source:d:\penelitian pupt\opengl\engine\engine\cbulletresponseanimator.cpp
+	"CBulletResponseAnimator.h"
+	"CSceneManager.h"
+	"CExplosionSceneNode.h"
+	"CEnemy.h"
+
+1249088056 d:\penelitian pupt\opengl\engine\engine\cexplosionscenenode.h
+	"CParticleSystemSceneNode.h"
+	"SMaterial.h"
+	<time.h>
+
+1249088636 d:\penelitian pupt\opengl\engine\engine\cparticlesystemscenenode.h
+	"CSceneNode.h"
+	"SColor4f.h"
+
+1508167402 source:d:\penelitian pupt\opengl\engine\engine\ccamerafpsscenenode.cpp
+	"CCameraFPSSceneNode.h"
+	"CSceneManager.h"
+
+1508134525 source:d:\penelitian pupt\opengl\engine\engine\ccamerascenenode.cpp
+	"CCameraSceneNode.h"
+	"CSceneManager.h"
+
+1250069004 source:d:\penelitian pupt\opengl\engine\engine\ccollisionmanager.cpp
+	"CCollisionManager.h"
+
+1249373696 source:d:\penelitian pupt\opengl\engine\engine\ccollisionresponseanimator.cpp
+	"CCollisionResponseAnimator.h"
+	"CSceneNode.h"
+	"CSceneManager.h"
+
+1250060242 source:d:\penelitian pupt\opengl\engine\engine\cenemy.cpp
+	"CEnemy.h"
+	"CSceneManager.h"
+
+1248173468 source:d:\penelitian pupt\opengl\engine\engine\cexplosionscenenode.cpp
+	"CExplosionSceneNode.h"
+	"CSceneManager.h"
+
+1248941040 source:d:\penelitian pupt\opengl\engine\engine\choderdevice.cpp
+	"CHolderDevice.h"
+	"CEventProcessor.h"
+
+1508114512 d:\penelitian pupt\opengl\engine\engine\cholderdevice.h
+	"CSceneManager.h"
+
+1248940980 d:\penelitian pupt\opengl\engine\engine\ceventprocessor.h
+	<windows.h>
+	"CHolderDevice.h"
+
+1508166955 source:d:\penelitian pupt\opengl\engine\engine\clevel.cpp
+	"CLevel.h"
+	"CSceneManager.h"
+
+1249443332 source:d:\penelitian pupt\opengl\engine\engine\cmd2mesh.cpp
+	"CMD2Mesh.h"
+	"CSceneManager.h"
+	<stdio.h>
+
+1249871348 source:d:\penelitian pupt\opengl\engine\engine\cmd2scenenode.cpp
+	"CMD2SceneNode.h"
+	"CSceneManager.h"
+
+1248937776 source:d:\penelitian pupt\opengl\engine\engine\cmedevice.cpp
+	"CMeDevice.h"
+
+1508114499 d:\penelitian pupt\opengl\engine\engine\cmedevice.h
+	"CHolderDevice.h"
+
+1249441616 source:d:\penelitian pupt\opengl\engine\engine\cmesh.cpp
+	"CMesh.h"
+	"CSceneManager.h"
+
+1248081444 source:d:\penelitian pupt\opengl\engine\engine\cparticlesystemscenenode.cpp
+	"CParticleSystemSceneNode.h"
+
+1508155984 source:d:\penelitian pupt\opengl\engine\engine\cscenemanager.cpp
+	"CSceneManager.h"
+	"CHolderDevice.h"
+
+1249715776 source:d:\penelitian pupt\opengl\engine\engine\cscenenode.cpp
+	"CSceneNode.h"
+
+1508685365 source:d:\penelitian pupt\opengl\engine\engine\csimpledemoapplication.cpp
+	"CSimpleDemoApplication.h"
+
+1508548119 d:\penelitian pupt\opengl\engine\engine\csimpledemoapplication.h
+	"CMeDevice.h"
+	"CEnemy.h"
+	"CBullet.h"
+	"CBSPSceneNode.h"
+	"CCollisionResponseAnimator.h"
+	"CBmp24Image.h"
+	"CEventProcessor.h"
+	<stdio.h>
+
+1249372258 source:d:\penelitian pupt\opengl\engine\engine\cstraightmotionanimator.cpp
+	"CStraightMotionAnimator.h"
+	"CSceneManager.h"
+	"CSceneNode.h"
+
+1243354412 source:d:\penelitian pupt\opengl\engine\engine\ctestscenenode.cpp
+	"CTestSceneNode.h"
+	"CSceneManager.h"
+
+1243354272 d:\penelitian pupt\opengl\engine\engine\ctestscenenode.h
+	"CSceneNode.h"
+
+1248067034 source:d:\penelitian pupt\opengl\engine\engine\ctexture.cpp
+	"CTexture.h"
+
+1245229974 source:d:\penelitian pupt\opengl\engine\engine\driverextension.cpp
+	"DriverExtension.h"
+	<windows.h>
+	<string.h>
+
+1249204868 source:d:\penelitian pupt\opengl\engine\engine\aabbox.cpp
+	"aabbox.h"
+	"matrix4.h"
+
+1249009932 source:d:\penelitian pupt\opengl\engine\engine\main.cpp
+	"CSimpleDemoApplication.h"
+
+1249288844 source:d:\penelitian\penelitian pupt\engine\canimator.cpp
+	"CAnimator.h"
+	"CSceneNode.h"
+
+1249288886 d:\penelitian\penelitian pupt\engine\canimator.h
+
+1249288402 d:\penelitian\penelitian pupt\engine\cscenenode.h
+	<gl\glu.h>
+	"irrList.h"
+	"CNode.h"
+	"matrix4.h"
+	"CAnimator.h"
+
+1241206722 d:\penelitian\penelitian pupt\engine\irrlist.h
+
+1249288426 d:\penelitian\penelitian pupt\engine\cnode.h
+	<windows.h>
+
+1249204200 d:\penelitian\penelitian pupt\engine\matrix4.h
+	"aabbox.h"
+
+1244605786 d:\penelitian\penelitian pupt\engine\aabbox.h
+	"CPlane.h"
+
+1244605752 d:\penelitian\penelitian pupt\engine\cplane.h
+	"CVector3.h"
+
+1242105564 d:\penelitian\penelitian pupt\engine\cvector3.h
+	<math.h>
+	"specMath.h"
+
+1242102896 d:\penelitian\penelitian pupt\engine\specmath.h
+
+1508736247 source:d:\penelitian\penelitian pupt\engine\cbspmesh.cpp
+	"CBSPMesh.h"
+	"CSceneManager.h"
+	<stdio.h>
+	<string.h>
+
+1249441920 d:\penelitian\penelitian pupt\engine\cbspmesh.h
+	<windows.h>
+	"irrArray.h"
+	"CMesh.h"
+	"SMaterial.h"
+	"aabbox.h"
+
+1242801926 d:\penelitian\penelitian pupt\engine\irrarray.h
+
+1249441884 d:\penelitian\penelitian pupt\engine\cmesh.h
+	<string.h>
+
+1248094578 d:\penelitian\penelitian pupt\engine\smaterial.h
+	"SColor4f.h"
+	"CTexture.h"
+	"DriverExtension.h"
+
+1243436268 d:\penelitian\penelitian pupt\engine\scolor4f.h
+
+1243515502 d:\penelitian\penelitian pupt\engine\ctexture.h
+	"CBmp24GrayscaleImage.h"
+
+1243308416 d:\penelitian\penelitian pupt\engine\cbmp24grayscaleimage.h
+	"CBmp24Image.h"
+	<math.h>
+
+1243292280 d:\penelitian\penelitian pupt\engine\cbmp24image.h
+	"CImage.h"
+
+1245137556 d:\penelitian\penelitian pupt\engine\cimage.h
+	<windows.h>
+	<gl\glu.h>
+	"CVector2.h"
+
+1242102928 d:\penelitian\penelitian pupt\engine\cvector2.h
+	<math.h>
+	"specMath.h"
+
+1245230042 d:\penelitian\penelitian pupt\engine\driverextension.h
+	<gl\glu.h>
+	<gl\glext.h>
+
+1508133779 d:\penelitian\penelitian pupt\engine\cscenemanager.h
+	"CTimer.h"
+	"CLevel.h"
+	"CCollisionManager.h"
+
+1241282906 d:\penelitian\penelitian pupt\engine\ctimer.h
+	<windows.h>
+
+1248172188 d:\penelitian\penelitian pupt\engine\clevel.h
+	"CCameraFPSSceneNode.h"
+
+1508167285 d:\penelitian\penelitian pupt\engine\ccamerafpsscenenode.h
+	"CCameraSceneNode.h"
+	"CCursorControl.h"
+	"irrArray.h"
+
+1249026486 d:\penelitian\penelitian pupt\engine\ccamerascenenode.h
+	"CSceneNode.h"
+	"CameraAction.h"
+	"SViewFrustrum.h"
+
+1242889146 d:\penelitian\penelitian pupt\engine\cameraaction.h
+
+1243829054 d:\penelitian\penelitian pupt\engine\sviewfrustrum.h
+	"matrix4.h"
+
+1243353078 d:\penelitian\penelitian pupt\engine\ccursorcontrol.h
+	<windows.h>
+	"CVector2.h"
+
+1249727440 d:\penelitian\penelitian pupt\engine\ccollisionmanager.h
+	"CBSPSceneNode.h"
+
+1249443198 d:\penelitian\penelitian pupt\engine\cbspscenenode.h
+	"CSceneNode.h"
+	"CBSPMesh.h"
+
+1249441968 source:d:\penelitian\penelitian pupt\engine\cbspscenenode.cpp
+	"CBSPSceneNode.h"
+	"CSceneManager.h"
+	"SViewFrustrum.h"
+
+1249205006 source:d:\penelitian\penelitian pupt\engine\cbillboardscenenode.cpp
+	"CBillboardSceneNode.h"
+	"CSceneManager.h"
+
+1249205052 d:\penelitian\penelitian pupt\engine\cbillboardscenenode.h
+	"CSceneNode.h"
+	"SMaterial.h"
+
+1243493982 source:d:\penelitian\penelitian pupt\engine\cbmp24image.cpp
+	"CBmp24Image.h"
+	<stdio.h>
+
+1250066728 source:d:\penelitian\penelitian pupt\engine\cbounceanimator.cpp
+	"CBounceAnimator.h"
+	"CSceneManager.h"
+	"CEnemy.h"
+
+1250066686 d:\penelitian\penelitian pupt\engine\cbounceanimator.h
+	<time.h>
+	<stdlib.h>
+	"CCollisionResponseAnimator.h"
+
+1249372582 d:\penelitian\penelitian pupt\engine\ccollisionresponseanimator.h
+	"CAnimator.h"
+	"CVector3.h"
+
+1250060220 d:\penelitian\penelitian pupt\engine\cenemy.h
+	<time.h>
+	"CMD2SceneNode.h"
+	"CBounceAnimator.h"
+	"CBullet.h"
+
+1249448178 d:\penelitian\penelitian pupt\engine\cmd2scenenode.h
+	"CSceneNode.h"
+	"CMD2Mesh.h"
+
+1249443448 d:\penelitian\penelitian pupt\engine\cmd2mesh.h
+	"CMesh.h"
+	"irrArray.h"
+	"SMaterial.h"
+	"aabbox.h"
+
+1249847350 d:\penelitian\penelitian pupt\engine\cbullet.h
+	"CMD2SceneNode.h"
+	"CStraightMotionAnimator.h"
+	"CBulletResponseAnimator.h"
+
+1249293504 d:\penelitian\penelitian pupt\engine\cstraightmotionanimator.h
+	"CAnimator.h"
+	"CVector3.h"
+
+1250057930 d:\penelitian\penelitian pupt\engine\cbulletresponseanimator.h
+	"CAnimator.h"
+	"aabbox.h"
+	"CVector3.h"
+	"CBmp24Image.h"
+
+1250060040 source:d:\penelitian\penelitian pupt\engine\cbulletresponseanimator.cpp
+	"CBulletResponseAnimator.h"
+	"CSceneManager.h"
+	"CExplosionSceneNode.h"
+	"CEnemy.h"
+
+1249088056 d:\penelitian\penelitian pupt\engine\cexplosionscenenode.h
+	"CParticleSystemSceneNode.h"
+	"SMaterial.h"
+	<time.h>
+
+1249088636 d:\penelitian\penelitian pupt\engine\cparticlesystemscenenode.h
+	"CSceneNode.h"
+	"SColor4f.h"
+
+1508167402 source:d:\penelitian\penelitian pupt\engine\ccamerafpsscenenode.cpp
+	"CCameraFPSSceneNode.h"
+	"CSceneManager.h"
+
+1508134525 source:d:\penelitian\penelitian pupt\engine\ccamerascenenode.cpp
+	"CCameraSceneNode.h"
+	"CSceneManager.h"
+
+1250069004 source:d:\penelitian\penelitian pupt\engine\ccollisionmanager.cpp
+	"CCollisionManager.h"
+
+1249373696 source:d:\penelitian\penelitian pupt\engine\ccollisionresponseanimator.cpp
+	"CCollisionResponseAnimator.h"
+	"CSceneNode.h"
+	"CSceneManager.h"
+
+1250060242 source:d:\penelitian\penelitian pupt\engine\cenemy.cpp
+	"CEnemy.h"
+	"CSceneManager.h"
+
+1248173468 source:d:\penelitian\penelitian pupt\engine\cexplosionscenenode.cpp
+	"CExplosionSceneNode.h"
+	"CSceneManager.h"
+
+1248941040 source:d:\penelitian\penelitian pupt\engine\choderdevice.cpp
+	"CHolderDevice.h"
+	"CEventProcessor.h"
+
+1508114512 d:\penelitian\penelitian pupt\engine\cholderdevice.h
+	"CSceneManager.h"
+
+1248940980 d:\penelitian\penelitian pupt\engine\ceventprocessor.h
+	<windows.h>
+	"CHolderDevice.h"
+
+1508166955 source:d:\penelitian\penelitian pupt\engine\clevel.cpp
+	"CLevel.h"
+	"CSceneManager.h"
+
+1249443332 source:d:\penelitian\penelitian pupt\engine\cmd2mesh.cpp
+	"CMD2Mesh.h"
+	"CSceneManager.h"
+	<stdio.h>
+
+1249871348 source:d:\penelitian\penelitian pupt\engine\cmd2scenenode.cpp
+	"CMD2SceneNode.h"
+	"CSceneManager.h"
+
+1248937776 source:d:\penelitian\penelitian pupt\engine\cmedevice.cpp
+	"CMeDevice.h"
+
+1508114499 d:\penelitian\penelitian pupt\engine\cmedevice.h
+	"CHolderDevice.h"
+
+1249441616 source:d:\penelitian\penelitian pupt\engine\cmesh.cpp
+	"CMesh.h"
+	"CSceneManager.h"
+
+1248081444 source:d:\penelitian\penelitian pupt\engine\cparticlesystemscenenode.cpp
+	"CParticleSystemSceneNode.h"
+
+1508155984 source:d:\penelitian\penelitian pupt\engine\cscenemanager.cpp
+	"CSceneManager.h"
+	"CHolderDevice.h"
+
+1249715776 source:d:\penelitian\penelitian pupt\engine\cscenenode.cpp
+	"CSceneNode.h"
+
+1509086845 source:d:\penelitian\penelitian pupt\engine\csimpledemoapplication.cpp
+	"CSimpleDemoApplication.h"
+
+1508548119 d:\penelitian\penelitian pupt\engine\csimpledemoapplication.h
+	"CMeDevice.h"
+	"CEnemy.h"
+	"CBullet.h"
+	"CBSPSceneNode.h"
+	"CCollisionResponseAnimator.h"
+	"CBmp24Image.h"
+	"CEventProcessor.h"
+	<stdio.h>
+
+1249372258 source:d:\penelitian\penelitian pupt\engine\cstraightmotionanimator.cpp
+	"CStraightMotionAnimator.h"
+	"CSceneManager.h"
+	"CSceneNode.h"
+
+1243354412 source:d:\penelitian\penelitian pupt\engine\ctestscenenode.cpp
+	"CTestSceneNode.h"
+	"CSceneManager.h"
+
+1243354272 d:\penelitian\penelitian pupt\engine\ctestscenenode.h
+	"CSceneNode.h"
+
+1248067034 source:d:\penelitian\penelitian pupt\engine\ctexture.cpp
+	"CTexture.h"
+
+1245229974 source:d:\penelitian\penelitian pupt\engine\driverextension.cpp
+	"DriverExtension.h"
+	<windows.h>
+	<string.h>
+
+1249204868 source:d:\penelitian\penelitian pupt\engine\aabbox.cpp
+	"aabbox.h"
+	"matrix4.h"
+
+1249009932 source:d:\penelitian\penelitian pupt\engine\main.cpp
+	"CSimpleDemoApplication.h"
+
+1249288844 source:e:\penelitian\penelitian pupt\engine\canimator.cpp
+	"CAnimator.h"
+	"CSceneNode.h"
+
+1249288886 e:\penelitian\penelitian pupt\engine\canimator.h
+
+1249288402 e:\penelitian\penelitian pupt\engine\cscenenode.h
+	<gl\glu.h>
+	"irrList.h"
+	"CNode.h"
+	"matrix4.h"
+	"CAnimator.h"
+
+1241206722 e:\penelitian\penelitian pupt\engine\irrlist.h
+
+1249288426 e:\penelitian\penelitian pupt\engine\cnode.h
+	<windows.h>
+
+1249204200 e:\penelitian\penelitian pupt\engine\matrix4.h
+	"aabbox.h"
+
+1244605786 e:\penelitian\penelitian pupt\engine\aabbox.h
+	"CPlane.h"
+
+1244605752 e:\penelitian\penelitian pupt\engine\cplane.h
+	"CVector3.h"
+
+1242105564 e:\penelitian\penelitian pupt\engine\cvector3.h
+	<math.h>
+	"specMath.h"
+
+1242102896 e:\penelitian\penelitian pupt\engine\specmath.h
+
+1574145280 source:e:\penelitian\penelitian pupt\engine\cbspmesh.cpp
+	"CBSPMesh.h"
+	"CSceneManager.h"
+	<stdio.h>
+	<string.h>
+
+1249441920 e:\penelitian\penelitian pupt\engine\cbspmesh.h
+	<windows.h>
+	"irrArray.h"
+	"CMesh.h"
+	"SMaterial.h"
+	"aabbox.h"
+
+1242801926 e:\penelitian\penelitian pupt\engine\irrarray.h
+
+1249441884 e:\penelitian\penelitian pupt\engine\cmesh.h
+	<string.h>
+
+1248094578 e:\penelitian\penelitian pupt\engine\smaterial.h
+	"SColor4f.h"
+	"CTexture.h"
+	"DriverExtension.h"
+
+1243436268 e:\penelitian\penelitian pupt\engine\scolor4f.h
+
+1243515502 e:\penelitian\penelitian pupt\engine\ctexture.h
+	"CBmp24GrayscaleImage.h"
+
+1243308416 e:\penelitian\penelitian pupt\engine\cbmp24grayscaleimage.h
+	"CBmp24Image.h"
+	<math.h>
+
+1243292280 e:\penelitian\penelitian pupt\engine\cbmp24image.h
+	"CImage.h"
+
+1245137556 e:\penelitian\penelitian pupt\engine\cimage.h
+	<windows.h>
+	<gl\glu.h>
+	"CVector2.h"
+
+1242102928 e:\penelitian\penelitian pupt\engine\cvector2.h
+	<math.h>
+	"specMath.h"
+
+1245230042 e:\penelitian\penelitian pupt\engine\driverextension.h
+	<gl\glu.h>
+	<gl\glext.h>
+
+1508133779 e:\penelitian\penelitian pupt\engine\cscenemanager.h
+	"CTimer.h"
+	"CLevel.h"
+	"CCollisionManager.h"
+
+1241282906 e:\penelitian\penelitian pupt\engine\ctimer.h
+	<windows.h>
+
+1248172188 e:\penelitian\penelitian pupt\engine\clevel.h
+	"CCameraFPSSceneNode.h"
+
+1573808662 e:\penelitian\penelitian pupt\engine\ccamerafpsscenenode.h
+	"CCameraSceneNode.h"
+	"CCursorControl.h"
+	"irrArray.h"
+
+1249026486 e:\penelitian\penelitian pupt\engine\ccamerascenenode.h
+	"CSceneNode.h"
+	"CameraAction.h"
+	"SViewFrustrum.h"
+
+1242889146 e:\penelitian\penelitian pupt\engine\cameraaction.h
+
+1243829054 e:\penelitian\penelitian pupt\engine\sviewfrustrum.h
+	"matrix4.h"
+
+1538815359 e:\penelitian\penelitian pupt\engine\ccursorcontrol.h
+	<windows.h>
+	"CVector2.h"
+
+1249727440 e:\penelitian\penelitian pupt\engine\ccollisionmanager.h
+	"CBSPSceneNode.h"
+
+1249443198 e:\penelitian\penelitian pupt\engine\cbspscenenode.h
+	"CSceneNode.h"
+	"CBSPMesh.h"
+
+1249441968 source:e:\penelitian\penelitian pupt\engine\cbspscenenode.cpp
+	"CBSPSceneNode.h"
+	"CSceneManager.h"
+	"SViewFrustrum.h"
+
+1249205006 source:e:\penelitian\penelitian pupt\engine\cbillboardscenenode.cpp
+	"CBillboardSceneNode.h"
+	"CSceneManager.h"
+
+1249205052 e:\penelitian\penelitian pupt\engine\cbillboardscenenode.h
+	"CSceneNode.h"
+	"SMaterial.h"
+
+1243493982 source:e:\penelitian\penelitian pupt\engine\cbmp24image.cpp
+	"CBmp24Image.h"
+	<stdio.h>
+
+1250066728 source:e:\penelitian\penelitian pupt\engine\cbounceanimator.cpp
+	"CBounceAnimator.h"
+	"CSceneManager.h"
+	"CEnemy.h"
+
+1250066686 e:\penelitian\penelitian pupt\engine\cbounceanimator.h
+	<time.h>
+	<stdlib.h>
+	"CCollisionResponseAnimator.h"
+
+1249372582 e:\penelitian\penelitian pupt\engine\ccollisionresponseanimator.h
+	"CAnimator.h"
+	"CVector3.h"
+
+1250060220 e:\penelitian\penelitian pupt\engine\cenemy.h
+	<time.h>
+	"CMD2SceneNode.h"
+	"CBounceAnimator.h"
+	"CBullet.h"
+
+1249448178 e:\penelitian\penelitian pupt\engine\cmd2scenenode.h
+	"CSceneNode.h"
+	"CMD2Mesh.h"
+
+1249443448 e:\penelitian\penelitian pupt\engine\cmd2mesh.h
+	"CMesh.h"
+	"irrArray.h"
+	"SMaterial.h"
+	"aabbox.h"
+
+1249847350 e:\penelitian\penelitian pupt\engine\cbullet.h
+	"CMD2SceneNode.h"
+	"CStraightMotionAnimator.h"
+	"CBulletResponseAnimator.h"
+
+1249293504 e:\penelitian\penelitian pupt\engine\cstraightmotionanimator.h
+	"CAnimator.h"
+	"CVector3.h"
+
+1250057930 e:\penelitian\penelitian pupt\engine\cbulletresponseanimator.h
+	"CAnimator.h"
+	"aabbox.h"
+	"CVector3.h"
+	"CBmp24Image.h"
+
+1250060040 source:e:\penelitian\penelitian pupt\engine\cbulletresponseanimator.cpp
+	"CBulletResponseAnimator.h"
+	"CSceneManager.h"
+	"CExplosionSceneNode.h"
+	"CEnemy.h"
+
+1249088056 e:\penelitian\penelitian pupt\engine\cexplosionscenenode.h
+	"CParticleSystemSceneNode.h"
+	"SMaterial.h"
+	<time.h>
+
+1249088636 e:\penelitian\penelitian pupt\engine\cparticlesystemscenenode.h
+	"CSceneNode.h"
+	"SColor4f.h"
+
+1573809581 source:e:\penelitian\penelitian pupt\engine\ccamerafpsscenenode.cpp
+	"CCameraFPSSceneNode.h"
+	"CSceneManager.h"
+
+1508134525 source:e:\penelitian\penelitian pupt\engine\ccamerascenenode.cpp
+	"CCameraSceneNode.h"
+	"CSceneManager.h"
+
+1250069004 source:e:\penelitian\penelitian pupt\engine\ccollisionmanager.cpp
+	"CCollisionManager.h"
+
+1249373696 source:e:\penelitian\penelitian pupt\engine\ccollisionresponseanimator.cpp
+	"CCollisionResponseAnimator.h"
+	"CSceneNode.h"
+	"CSceneManager.h"
+
+1250060242 source:e:\penelitian\penelitian pupt\engine\cenemy.cpp
+	"CEnemy.h"
+	"CSceneManager.h"
+
+1248173468 source:e:\penelitian\penelitian pupt\engine\cexplosionscenenode.cpp
+	"CExplosionSceneNode.h"
+	"CSceneManager.h"
+
+1248941040 source:e:\penelitian\penelitian pupt\engine\choderdevice.cpp
+	"CHolderDevice.h"
+	"CEventProcessor.h"
+
+1508114512 e:\penelitian\penelitian pupt\engine\cholderdevice.h
+	"CSceneManager.h"
+
+1248940980 e:\penelitian\penelitian pupt\engine\ceventprocessor.h
+	<windows.h>
+	"CHolderDevice.h"
+
+1508166955 source:e:\penelitian\penelitian pupt\engine\clevel.cpp
+	"CLevel.h"
+	"CSceneManager.h"
+
+1249443332 source:e:\penelitian\penelitian pupt\engine\cmd2mesh.cpp
+	"CMD2Mesh.h"
+	"CSceneManager.h"
+	<stdio.h>
+
+1249871348 source:e:\penelitian\penelitian pupt\engine\cmd2scenenode.cpp
+	"CMD2SceneNode.h"
+	"CSceneManager.h"
+
+1574778342 source:e:\penelitian\penelitian pupt\engine\cmedevice.cpp
+	"CMeDevice.h"
+
+1573980416 e:\penelitian\penelitian pupt\engine\cmedevice.h
+	"CHolderDevice.h"
+
+1249441616 source:e:\penelitian\penelitian pupt\engine\cmesh.cpp
+	"CMesh.h"
+	"CSceneManager.h"
+
+1248081444 source:e:\penelitian\penelitian pupt\engine\cparticlesystemscenenode.cpp
+	"CParticleSystemSceneNode.h"
+
+1508155984 source:e:\penelitian\penelitian pupt\engine\cscenemanager.cpp
+	"CSceneManager.h"
+	"CHolderDevice.h"
+
+1249715776 source:e:\penelitian\penelitian pupt\engine\cscenenode.cpp
+	"CSceneNode.h"
+
+1574406414 source:e:\penelitian\penelitian pupt\engine\csimpledemoapplication.cpp
+	"CSimpleDemoApplication.h"
+
+1573804763 e:\penelitian\penelitian pupt\engine\csimpledemoapplication.h
+	"CMeDevice.h"
+	"CDummyDevice.h"
+	"CEnemy.h"
+	"CBullet.h"
+	"CBSPSceneNode.h"
+	"CCollisionResponseAnimator.h"
+	"CBmp24Image.h"
+	"CEventProcessor.h"
+	<stdio.h>
+
+1249372258 source:e:\penelitian\penelitian pupt\engine\cstraightmotionanimator.cpp
+	"CStraightMotionAnimator.h"
+	"CSceneManager.h"
+	"CSceneNode.h"
+
+1243354412 source:e:\penelitian\penelitian pupt\engine\ctestscenenode.cpp
+	"CTestSceneNode.h"
+	"CSceneManager.h"
+
+1243354272 e:\penelitian\penelitian pupt\engine\ctestscenenode.h
+	"CSceneNode.h"
+
+1248067034 source:e:\penelitian\penelitian pupt\engine\ctexture.cpp
+	"CTexture.h"
+
+1245229974 source:e:\penelitian\penelitian pupt\engine\driverextension.cpp
+	"DriverExtension.h"
+	<windows.h>
+	<string.h>
+
+1249204868 source:e:\penelitian\penelitian pupt\engine\aabbox.cpp
+	"aabbox.h"
+	"matrix4.h"
+
+1249009932 source:e:\penelitian\penelitian pupt\engine\main.cpp
+	"CSimpleDemoApplication.h"
+
+1574778387 source:e:\penelitian\penelitian pupt\engine\cdummydevice.cpp
+	"CDummyDevice.h"
+
+1574034080 e:\penelitian\penelitian pupt\engine\cdummydevice.h
+	"CMeDevice.h"
+
